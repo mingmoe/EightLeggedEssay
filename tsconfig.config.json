@@ -1,0 +1,9 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.node.json",
+  "include": ["vite.config.*", "vitest.config.*", "cypress.config.*","./src/shared.*","data.*"],
+  "compilerOptions": {
+    "composite": true,
+    "types": ["node"],
+    "esModuleInterop": true
+  },
+}
